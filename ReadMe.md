@@ -30,7 +30,8 @@ To find out more about ReSharper's Code Cleanup profiles, [click here](https://w
 **Known Issues:**
 -------------
 * When saving multiple files, the active document may flicker back and forth between the unsaved tabs and your last active document.
-* After ReSharper has formated the document, you need to call save a second time - this is due to Visual Studio's API only triggering **AFTER** the document has already been saved. (Further investigation is required)
+* After ReSharper has formatted the document, you need to call save a second time - this is due to Visual Studio's API only triggering **AFTER** the document has already been saved. (Further investigation is required)
+* On Build, documents are saved without being formatted. This is by design due to limitations with the API.
 
 
 **Credits:**
