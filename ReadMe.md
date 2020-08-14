@@ -27,6 +27,9 @@ To find out more about ReSharper's Code Cleanup profiles, [click here](https://w
 * Any version of ReSharper that supports either the *"ReSharper.ReSharper_SilentCleanupCode"* or the *"ReSharper_SilentCleanupCode"* command.
 
 
+**NOTE: As of ReSharper v2020.2, this plugin has become redundant as ReSharper now has native code cleanup on save functionality.**
+
+
 **Known Issues:**
 -------------
 * When saving multiple files, the active document may flicker back and forth between the unsaved tabs and your last active document.
